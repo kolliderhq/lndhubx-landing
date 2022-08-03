@@ -47,7 +47,7 @@ const Hero = () => {
 			<div className="flex flex-col h-full">
 				<div className="m-auto lg:w-1/2 w-96 ">
 					<div className="text-6xl font-bold">
-						<span className="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">Protect </span>your Bitcoin
+						<span className="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">Protect </span> your Bitcoin from price drops
 					</div>
 					<div className="mt-8 text-gray-400 text-xl opacity-60">
 						The Lightning wallet that lets you peg your Bitcoin balance to fiat currency.
