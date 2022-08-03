@@ -73,7 +73,7 @@ const Hero = () => {
 			</div>
 			<div className="flex bg-transparent">
 				<div className="">
-					{/* <Img src="/assets/landing/landing_hero.png" className="w-3/4 m-auto" /> */}
+					<Img src="/assets/landing/landing_hero_v2.png" className="m-auto" />
 				</div>
 			</div>
 		</div>
@@ -82,7 +82,7 @@ const Hero = () => {
 
 const About = () => {
 	return (
-		<div className="w-full h-full flex bg-transparent mb-12">
+		<div className="w-full h-full flex bg-transparent mb-12 mt-12">
 			<div className="lg:grid lg:grid-cols-3 m-auto flex flex-col lg:w-4/5">
 				<div className="mx-auto w-3/5 mt-4">
 					<div className="text-center text-5xl"><MdLock /></div>
