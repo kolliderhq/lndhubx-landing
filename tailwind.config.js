@@ -135,9 +135,9 @@ module.exports = {
 				},
 			},
 			fontFamily: {
-				mono: ['SFMono', 'ui-monospace'],
-				sans: ['SFMono'],
-				serif: ['SFMono'],
+				// mono: ['SFMono', 'ui-monospace'],
+				// sans: ['SFMono'],
+				// serif: ['SFMono'],
 			},
 		},
 	},
