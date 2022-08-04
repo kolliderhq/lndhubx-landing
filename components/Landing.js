@@ -64,8 +64,8 @@ const Hero = () => {
 									className="input-default inline-block w-full border rounded-l-lg border-transparent h-12 text-gray-800"
 								/>
 							</div>
-							<div className="flex w-3/5 bg-transparent border rounded-r-lg text-md cursor-pointer hover:bg-purple-900 hover:border-transparent" onClick={() => onPresignup()}>
-								<div className="m-auto text-white"> Get early access</div>
+							<div className="flex w-3/5 bg-transparent border rounded-r-lg text-md cursor-pointer hover:border-yellow-400 hover:text-yellow-400" onClick={() => onPresignup()}>
+								<div className="m-auto"> Get early access</div>
 							</div>
 						</div>
 					</div>
