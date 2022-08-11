@@ -52,21 +52,11 @@ const Hero = () => {
 					<div className="mt-8 text-gray-400 text-xl opacity-60">
 						The Lightning wallet that lets you peg your Bitcoin balance to fiat currency.
 					</div>
-					<div className="mt-8">
-						<div className="flex flex-row">
-							<div className="w-3/4 border rounded-l-lg">
-								<input
-									value={email}
-									onInput={e => setEmail(e.target.value)}
-									placeholder="Your Email"
-									type="text"
-									style={{ textAlign: 'left' }}
-									className="input-default inline-block w-full border rounded-l-lg border-transparent h-12 text-gray-800"
-								/>
-							</div>
-							<div className="flex w-3/5 bg-transparent border rounded-r-lg text-md cursor-pointer hover:border-yellow-400 hover:text-yellow-400" onClick={() => onPresignup()}>
-								<div className="m-auto"> Get early access</div>
-							</div>
+					<div className="mt-8 flex">
+						<div className="">
+							<a className="flex w-48 bg-transparent border rounded-lg px-4 py-2 ltext-md cursor-pointer hover:border-yellow-400 hover:text-yellow-400" href="https://pay.alpha.kollider.xyz">
+								<div className="m-auto">Try out Alpha!</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -85,7 +75,7 @@ const About = () => {
 		<div className="w-full h-full flex bg-transparent mb-12 mt-12">
 			<div className="lg:grid lg:grid-cols-3 m-auto flex flex-col lg:w-4/5">
 				<div className="mx-auto w-3/5 mt-4">
-					<div className="text-center text-5xl"><MdLock /></div>
+					<div className="text-center text-5xl"><MdLock/></div>
 					<div className="text-md font-bold mt-6 text-2xl">Lock in value</div>
 					<div className="text-lg text-gray-400">Got a purchase coming up? Secure your Bitcoin to the current price in fiat.</div>
 				</div>
